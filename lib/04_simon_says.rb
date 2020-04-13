@@ -19,7 +19,7 @@ def first_word (a)
     return a.split.first
 end
 
-# split.map(&:capitalize).join(' ')
+
 def titleize(a)
   b = a.split
   c = []
@@ -34,3 +34,5 @@ def titleize(a)
   end
   return c.join(' ')
 end
+
+# split.map(&:capitalize).join(' ')
